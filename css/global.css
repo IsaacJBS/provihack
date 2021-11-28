@@ -92,3 +92,8 @@ a.active {
 .social__footer li {
   padding: 10px;
 }
+
+.social__footer a:hover,
+a.active {
+  color: blue;
+}
