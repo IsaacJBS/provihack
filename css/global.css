@@ -1,6 +1,4 @@
 * {
-  font-family: "Public Sans", sans-serif;
-
   margin: 0;
   padding: 0;
 
@@ -64,7 +62,6 @@ a.active {
   padding: 13px 24px;
   background-color: grey;
   border-radius: 15px;
-  font-family: "Public Sans", sans-serif;
   margin-left: 30px;
 }
 
