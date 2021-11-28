@@ -1,3 +1,15 @@
+body {
+  background: #fbfbfb;
+}
+
+.menu {
+  margin-bottom: 100px;
+}
+
+.blue-title {
+  color: #63b4ff;
+}
+
 .mentor-card {
   width: 370px;
   height: 590px;
@@ -5,10 +17,13 @@
   display: flex;
   flex-direction: column;
 
-  background: #c4c4c4;
+  background: #ffffff;
+  border-radius: 20px;
   border-radius: 20px;
   padding: 35px;
   margin-bottom: 60px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .mentor-card__img-perfil {
@@ -32,8 +47,6 @@
   line-height: 32px;
   text-align: center;
   font-feature-settings: "pnum" on, "lnum" on;
-
-  color: #333333;
 }
 
 .mentor-card__nome-cargo__cargo {
@@ -42,7 +55,7 @@
   line-height: 150%;
   text-align: center;
 
-  color: #666666;
+  color: #252525;
 }
 
 .mentor-card__areas-comunidades {
@@ -65,7 +78,7 @@
   font-size: 12px;
   line-height: 150%;
 
-  color: #666666;
+  color: #252525;
 
   margin-bottom: 5px;
 }
@@ -84,9 +97,9 @@
   line-height: 150%;
   text-align: center;
 
-  color: #ffffff;
+  color: #095aa5;
 
-  background: #b3b3b3;
+  background: #d8e8f6;
   border-radius: 10px;
 
   padding: 2px 10px;
@@ -124,7 +137,13 @@
 }
 
 .carreiras {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+.numeros {
+  color: #095aa5;
+  font-size: 16px;
+  font-weight: bold;
 }
 .carreiras__impactadas {
   display: flex;
@@ -134,10 +153,13 @@
 
 .btn__agendamento {
   all: unset;
+  cursor: pointer;
   margin-top: 40px;
   padding: 20px 0;
   text-align: center;
-  background: #b3b3b3;
+  color: #ffffff;
+
+  background-color: #ff72ad;
   border-radius: 5px;
 }
 
@@ -146,11 +168,29 @@
   justify-content: space-between;
 }
 
+.right-section::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.right-section::-webkit-scrollbar-track {
+  background: #c4c4c4; /* color of the tracking area */
+}
+
+.right-section::-webkit-scrollbar-thumb {
+  background-color: #929292; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid#929292; /* creates padding around scroll thumb */
+}
+
 .right-section {
+  overflow: auto;
+  overflow-inline: 1;
+
   width: 60%;
   height: 590px;
-  padding: 45px 22px;
-  background: #ebebeb;
+  padding: 45px 40px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px 5px rgba(155, 155, 155, 0.25);
   border-radius: 20px;
 }
 
@@ -175,7 +215,8 @@
 
   padding: 60px 63px;
 
-  background: #c4c4c4;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px 5px rgba(155, 155, 155, 0.25);
   border-radius: 20px;
 }
 
@@ -201,6 +242,11 @@
 .card__perfil {
   margin-top: 23px;
   display: flex;
+}
+
+.img-card__perfil {
+  margin-right: 20px;
+  width: 40px;
 }
 
 .info-card__perfil {

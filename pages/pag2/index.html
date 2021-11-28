@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header class="menu__nav">
     <div class="menu container">
       <div class="logo menu__navigation ">
         <h2>Logo</h2>
@@ -36,19 +36,18 @@
 
   <section class="container container__section">
     <div class="mentor-card">
-      <img class="mentor-card__img-perfil" src="../../assets/mentor1.jpg" alt="Foto de perfil do mentor">
+      <img class="mentor-card__img-perfil" src="../../assets/julia-perfil.png" alt="Foto de perfil do mentor">
       <div class="mentor-card__nome-cargo">
-        <h1 class="mentor-card__nome-cargo__nome">Nome do mentor</h1>
-        <h2 class="mentor-card__nome-cargo__cargo">Cargo</h2>
+        <h1 class="mentor-card__nome-cargo__nome pink-title">Júlia Carmo</h1>
+        <h2 class="mentor-card__nome-cargo__cargo">Dev Sr</h2>
       </div>
       <div class="mentor-card__areas-comunidades">
         <div class="mentor-card__areas-comunidades__areas">
           <h3 class="mentor-card__areas-comunidades__titulo">ATUA NAS ÁREAS</h3>
           <ul class="mentor-card__areas-comunidades__lista">
-            <li class="mentor-card__areas-comunidades__lista__item">Atuação 1</li>
-            <li class="mentor-card__areas-comunidades__lista__item">Atuação 2</li>
-            <li class="mentor-card__areas-comunidades__lista__item">Atuação 3</li>
-            <li class="mentor-card__areas-comunidades__lista__item">Atuação 5</li>
+            <li class="mentor-card__areas-comunidades__lista__item">Programação</li>
+            <li class="mentor-card__areas-comunidades__lista__item">Inovação</li>
+            <li class="mentor-card__areas-comunidades__lista__item">Agile</li>
           </ul>
         </div>
         <div class="mentor-card__areas-comunidades__comunidades">
@@ -61,29 +60,25 @@
       </div>
       <div class="carreiras__impactadas">
         <span class="carreiras">NÚMERO DE CARREIRAS IMPACTADAS</span>
-        <span>+50</span>
+        <span class="numeros">50+</span>
       </div>
-      <button class="btn__agendamento">Fazer agendamento</button>
+      <button class="btn__agendamento btn--rosa">Fazer agendamento</button>
     </div>
     <div class="right-section">
-      <h2>Carreira</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sagittis volutpat non, sit bibendum id
-        erat a. Orci, velit metus, tellus dui. Bibendum libero cras egestas nisl cras tincidunt sed eu quisque. Molestie
-        vitae praesent sit nisi turpis nunc.</p>
-      <h2>Mentoria</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sagittis volutpat non, sit bibendum id
-        erat a. Orci, velit metus, tellus dui. Bibendum libero cras egestas nisl cras tincidunt sed eu quisque. Molestie
-        vitae praesent sit nisi turpis nunc.</p>
+      <h2 class="pink-title">Carreira</h2>
+      <p>Iniciou na carreira de tecnologia aos 30 anos, quando finalmente conseguiu sua primeira oportunidade como júnior. Viu sua primeira promoção chegar quando era o único a dominar a linguagem que seria adotada na empresa. Quer apadrinhar um Dev Júnior e se for PcD poderá ajudar mais.</p>
+      <h2 class="pink-title">Mentoria</h2>
+      <p>Gostaria de manter conversas quinzenais com a pessoa mentorada, observando resultados e metas, além de compartilhar dos desafios que pessoas PCD enfrentam.</p>
     </div>
   </section>
 
   <section class="container">
     <div>
-      <h2>Recomendações</h2>
+      <h2 class="blue-title">Recomendações</h2>
     </div>
     <div class="recomendacoes">
       <div class="card__recomedacoes">
-        <h2>Ótimo mentor</h2>
+        <h2 class="pink-title">Ótimo mentor</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sagittis volutpat non, sit bibendum id
           erat a. Orci, velit metus, tellus dui.</p>
         <div class="mentor-card__nota">
@@ -95,7 +90,7 @@
         </div>
         <div class="card__perfil">
           <div class="img-card__perfil">
-            <button class="card__btn"></button>
+            <img src="../../assets/leticia-perfil.png" alt="leticia perfil">
           </div>
           <div class="info-card__perfil">
             <span>Mang Oleh</span>
@@ -104,7 +99,7 @@
         </div>
       </div>
       <div class="card__recomedacoes">
-        <h2>Ótimo mentor</h2>
+        <h2 class="pink-title">Ótimo mentor</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sagittis volutpat non, sit bibendum id
           erat a. Orci, velit metus, tellus dui.</p>
         <div class="mentor-card__nota">
@@ -116,7 +111,7 @@
         </div>
         <div class="card__perfil">
           <div class="img-card__perfil">
-            <button class="card__btn"></button>
+            <img src="../../assets/rafa-perfil.png" alt="rafa perfil">
           </div>
           <div class="info-card__perfil">
             <span>Mang Oleh</span>
@@ -125,7 +120,7 @@
         </div>
       </div>
       <div class="card__recomedacoes">
-        <h2>Ótimo mentor</h2>
+        <h2 class="pink-title">Ótimo mentor</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sagittis volutpat non, sit bibendum id
           erat a. Orci, velit metus, tellus dui.</p>
         <div class="mentor-card__nota">
@@ -137,7 +132,7 @@
         </div>
         <div class="card__perfil">
           <div class="img-card__perfil">
-            <button class="card__btn"></button>
+            <img src="../../assets/renata-perfil.png" alt="renata perfil">
           </div>
           <div class="info-card__perfil">
             <span>Mang Oleh</span>

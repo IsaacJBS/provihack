@@ -3,7 +3,7 @@
   padding: 0;
 
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ul {
@@ -20,13 +20,21 @@ a {
   margin: 0 auto;
 }
 
+.pink-title {
+  color: #ff72ad;
+}
+
+.menu__nav {
+  background: #ffffff;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
-  color: #095AA5;
+  color: #095aa5;
 
   max-width: 85%;
   padding: 30px 0;
@@ -54,7 +62,7 @@ a {
 }
 
 .menu__navigation a {
-  color: #095AA5;
+  color: #095aa5;
 
   font-weight: 500;
   font-size: 16px;
@@ -81,15 +89,15 @@ a.active {
   line-height: 14px;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
-  background-color: #FF72AD;
+  background-color: #ff72ad;
   border-radius: 15px;
   margin-left: 30px;
 }
 
 .btn--rosa:hover {
-  background: #FF4693;
+  background: #ff4693;
 }
 
 .footer {
@@ -98,13 +106,14 @@ a.active {
   justify-content: center;
   text-align: center;
   height: 161px;
-  background-color: #63B4FF;
+  background-color: #63b4ff;
 
   padding: 13px 0;
 }
 
-.footer, .footer a {
-  color: #FFFFFF;
+.footer,
+.footer a {
+  color: #ffffff;
 }
 
 .social__footer {
