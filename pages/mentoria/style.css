@@ -1,0 +1,182 @@
+.page-container {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.page-container__top-bar {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 120px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+
+    color: #343A40;
+
+    margin-bottom: 8px;
+}
+
+select {
+    width: 364px;
+    height: 54px;   
+
+    color: #868E96;
+
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    padding: 15px 24px;
+}
+
+option {
+    color: #343A40;
+}
+
+.mentor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mentor-card {
+    max-width: 370px;
+    max-height: 383px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #C4C4C4;
+    border-radius: 20px;
+    padding: 35px;
+    margin-bottom: 60px;
+}
+
+.mentor-card__img-perfil {
+    width: 124px;
+    height: 124px;
+    
+    align-self: center;
+
+    position: relative;
+    bottom: 70px;
+
+    border-radius: 50%;
+    background-color: #7A7A7A;
+
+    margin-bottom: -60px;
+}
+
+.mentor-card__nome-cargo {
+    margin-bottom: 18px;
+}
+
+.mentor-card__nome-cargo__nome {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #333333;
+}
+
+.mentor-card__nome-cargo__cargo {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #666666;
+}
+
+.mentor-card__areas-comunidades {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.mentor-card__areas-comunidades__areas, .mentor-card__areas-comunidades__comunidades {
+    max-width: 50%;
+}
+
+.mentor-card__areas-comunidades__areas {
+    text-align: start;
+}
+
+.mentor-card__areas-comunidades__comunidades {
+    text-align: end;
+}
+
+.mentor-card__areas-comunidades__titulo {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #666666;
+
+    margin-bottom: 5px;
+}
+
+.mentor-card__areas-comunidades__lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mentor-card__areas-comunidades__lista__item {
+    max-height: 20px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #B3B3B3;
+    border-radius: 10px;
+
+    padding: 2px 10px;
+    margin: 0 5px 5px 0;
+}
+
+.mentor-card__nota {
+    text-align: center;
+
+    margin-bottom: 24px;
+}
+
+.mentor-card__mostrar-perfil {
+    all: unset;
+    cursor: pointer;
+
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+
+    background: #B3B3B3;
+    border-radius: 5px;
+}
+
+.mentor-card__mostrar-perfil__link {
+    flex-grow: 1;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
