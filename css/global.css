@@ -77,7 +77,7 @@ a {
 
 .menu__navigation a:hover,
 a.active {
-  color: blue;
+  color: #ff72ad;
 }
 
 .entrar {
@@ -120,7 +120,7 @@ a.active {
 }
 
 .social__footer {
-  margin-left: -22px;
+  margin-left: 40px;
 }
 
 .social__footer ul {
@@ -137,5 +137,5 @@ a.active {
 
 .social__footer a:hover,
 a.active {
-  color: blue;
+  color: #ff72ad;
 }
