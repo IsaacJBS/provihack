@@ -31,15 +31,15 @@ select {
     width: 364px;
     height: 54px;   
 
-    color: #868E96;
+    color: #FF72AD;
 
-    border: 1px solid #CED4DA;
+    border: 1px solid #FF72AD;
     border-radius: 8px;
     padding: 15px 24px;
 }
 
 option {
-    color: #343A40;
+    color: #FF72AD;
 }
 
 .mentor {
@@ -49,14 +49,16 @@ option {
 }
 
 .mentor-card {
-    max-width: 370px;
-    max-height: 383px;
+    width: 370px;
+    height: 383px;
 
     display: flex;
     flex-direction: column;
 
-    background: #C4C4C4;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px 5px rgba(155, 155, 155, 0.25);
     border-radius: 20px;
+
     padding: 35px;
     margin-bottom: 60px;
 }
@@ -71,7 +73,6 @@ option {
     bottom: 70px;
 
     border-radius: 50%;
-    background-color: #7A7A7A;
 
     margin-bottom: -60px;
 }
@@ -87,7 +88,7 @@ option {
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
 
-    color: #333333;
+    color: #FF72AD;
 }
 
 .mentor-card__nome-cargo__cargo {
@@ -95,8 +96,6 @@ option {
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-
-    color: #666666;
 }
 
 .mentor-card__areas-comunidades {
@@ -115,7 +114,10 @@ option {
 }
 
 .mentor-card__areas-comunidades__comunidades {
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
 }
 
 .mentor-card__areas-comunidades__titulo {
@@ -123,14 +125,18 @@ option {
     font-size: 12px;
     line-height: 150%;
 
-    color: #666666;
-
     margin-bottom: 5px;
+}
+
+.comunidades-lista {
+    justify-content: end;
 }
 
 .mentor-card__areas-comunidades__lista {
     display: flex;
     flex-wrap: wrap;
+
+    text-align: right;
 }
 
 .mentor-card__areas-comunidades__lista__item {
@@ -140,11 +146,11 @@ option {
     font-weight: normal;
     font-size: 10px;
     line-height: 150%;
-    text-align: center;
+    text-align: right;
 
-    color: #FFFFFF;
+    color: #095AA5;
 
-    background: #B3B3B3;
+    background: #D8E8F6;
     border-radius: 10px;
 
     padding: 2px 10px;
@@ -166,7 +172,7 @@ option {
     display: flex;
     align-items: center;
 
-    background: #B3B3B3;
+    background: #FF72AD;
     border-radius: 5px;
 }
 
