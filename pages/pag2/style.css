@@ -207,40 +207,34 @@ body {
   margin-bottom: 150px;
 }
 
-.card__recomedacoes {
+.card__recomendacoes {
   width: 360px;
-  height: 380px;
+  height: 426px;
 
   text-align: center;
 
-  padding: 60px 63px;
+  padding: 30px;
 
   background: #ffffff;
   box-shadow: 0px 5px 10px 5px rgba(155, 155, 155, 0.25);
   border-radius: 20px;
 }
 
-.card__recomedacoes h2 {
+.card__recomendacoes h2 {
   margin-bottom: 14px;
 }
 
-.card__recomedacoes p {
-  margin-bottom: 12px;
+.comentario {
+  height: 200px;
 }
 
-.card__btn {
-  all: unset;
-  background-color: #313131;
-
-  padding: 20px;
-  border-radius: 50px;
-
-  margin-bottom: 20px;
-  margin-right: 20px;
+.card__recomendacoes p {
+  margin-bottom: 12px;
 }
 
 .card__perfil {
   margin-top: 23px;
+
   display: flex;
 }
 
