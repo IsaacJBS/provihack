@@ -96,7 +96,7 @@ article {
   display: flex;
   flex-direction: column;
 
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .cards {
@@ -109,7 +109,7 @@ article {
   font-size: 36px;
   line-height: 24px;
 
-  color: #63b4ff;
+  color: #095aa5;
 
   margin-bottom: 37px;
 }
@@ -196,11 +196,12 @@ article {
 }
 
 .manifesto-left h1 {
+  font-weight: 500;
   font-size: 64px;
   text-align: left;
   margin-bottom: 69px;
 
-  color: #63b4ff;
+  color: #095aa5;
 }
 
 .manifesto-left p {
@@ -227,5 +228,5 @@ article {
 .manifesto__card span {
   font-size: 64px;
   line-height: 24px;
-  margin-bottom: 14px;
+  margin-bottom: 25px;
 }
