@@ -1,0 +1,212 @@
+.mentor-card {
+  width: 370px;
+  height: 590px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #c4c4c4;
+  border-radius: 20px;
+  padding: 35px;
+  margin-bottom: 60px;
+}
+
+.mentor-card__img-perfil {
+  width: 124px;
+  height: 124px;
+
+  align-self: center;
+  bottom: 70px;
+
+  border-radius: 100px;
+  background-color: #7a7a7a;
+}
+
+.mentor-card__nome-cargo {
+  margin-bottom: 18px;
+}
+
+.mentor-card__nome-cargo__nome {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #333333;
+}
+
+.mentor-card__nome-cargo__cargo {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+
+  color: #666666;
+}
+
+.mentor-card__areas-comunidades {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+}
+
+.mentor-card__areas-comunidades__areas {
+  text-align: start;
+}
+
+.mentor-card__areas-comunidades__comunidades {
+  margin-top: 27px;
+}
+
+.mentor-card__areas-comunidades__titulo {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #666666;
+
+  margin-bottom: 5px;
+}
+
+.mentor-card__areas-comunidades__lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mentor-card__areas-comunidades__lista__item {
+  max-height: 20px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #b3b3b3;
+  border-radius: 10px;
+
+  padding: 2px 10px;
+  margin: 0 5px 5px 0;
+}
+
+.mentor-card__nota {
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+
+.mentor-card__mostrar-perfil {
+  all: unset;
+  cursor: pointer;
+
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+
+  background: #b3b3b3;
+  border-radius: 5px;
+}
+
+.mentor-card__mostrar-perfil__link {
+  flex-grow: 1;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.carreiras {
+  font-size: 12px;
+}
+.carreiras__impactadas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__agendamento {
+  all: unset;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  background: #b3b3b3;
+  border-radius: 5px;
+}
+
+.container__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-section {
+  width: 60%;
+  height: 590px;
+  padding: 45px 22px;
+  background: #ebebeb;
+  border-radius: 20px;
+}
+
+.right-section p {
+  font-size: 20px;
+  line-height: 49px;
+  margin-bottom: 26px;
+}
+
+.recomendacoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+  margin-bottom: 150px;
+}
+
+.card__recomedacoes {
+  width: 360px;
+  height: 380px;
+
+  text-align: center;
+
+  padding: 60px 63px;
+
+  background: #c4c4c4;
+  border-radius: 20px;
+}
+
+.card__recomedacoes h2 {
+  margin-bottom: 14px;
+}
+
+.card__recomedacoes p {
+  margin-bottom: 12px;
+}
+
+.card__btn {
+  all: unset;
+  background-color: #313131;
+
+  padding: 20px;
+  border-radius: 50px;
+
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.card__perfil {
+  margin-top: 23px;
+  display: flex;
+}
+
+.info-card__perfil {
+  text-align: start;
+}
+
+.info-card__perfil p {
+  color: #666666;
+}
