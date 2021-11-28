@@ -31,8 +31,6 @@ select {
     width: 364px;
     height: 54px;   
 
-    color: #FF72AD;
-
     border: 1px solid #FF72AD;
     border-radius: 8px;
     padding: 15px 24px;
@@ -88,7 +86,7 @@ option {
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
 
-    color: #FF72AD;
+    color: #095AA5;
 }
 
 .mentor-card__nome-cargo__cargo {
