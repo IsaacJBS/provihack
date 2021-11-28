@@ -1,38 +1,3 @@
-{/* <div class="mentor-card">
-        <img class="mentor-card__img-perfil" src="../../assets/julia-perfil.png" alt="Foto de perfil do mentor">
-        <div class="mentor-card__nome-cargo">
-          <h1 class="mentor-card__nome-cargo__nome">teste</h1>
-          <h2 class="mentor-card__nome-cargo__cargo">teste</h2>
-        </div>
-        <div class="mentor-card__areas-comunidades">
-          <div class="mentor-card__areas-comunidades__areas">
-            <h3 class="mentor-card__areas-comunidades__titulo">ATUA NAS ÁREAS</h3>
-            <ul class="mentor-card__areas-comunidades__lista">
-              <li class="mentor-card__areas-comunidades__lista__item">Programação</li>
-              <li class="mentor-card__areas-comunidades__lista__item">Inovação</li>
-              <li class="mentor-card__areas-comunidades__lista__item">Agile</li>
-            </ul>
-          </div>
-          <div class="mentor-card__areas-comunidades__comunidades">
-            <h3 class="mentor-card__areas-comunidades__titulo">COMUNIDADES</h3>
-            <ul class="mentor-card__areas-comunidades__lista comunidades-lista">
-              <li class="mentor-card__areas-comunidades__lista__item comunidades-item">Pessoa Negra</li>
-              <li class="mentor-card__areas-comunidades__lista__item comunidades-item">PcD</li>
-            </ul>
-          </div>
-        </div>
-        <div class="mentor-card__nota">
-          <img src="../../assets/estrela.svg" alt="">
-          <img src="../../assets/estrela.svg" alt="">
-          <img src="../../assets/estrela.svg" alt="">
-          <img src="../../assets/estrela.svg" alt="">
-          <img src="../../assets/estrela.svg" alt="">
-        </div>
-        <button class="mentor-card__mostrar-perfil btn--rosa">
-          <a class="mentor-card__mostrar-perfil__link" href="../pag2/index.html">VER PERFIL</a>
-        </button>
-      </div> */}
-
 const mentoresDOM = document.querySelector(".mentor");
 
 fetch("http://localhost:8000/mentores")
