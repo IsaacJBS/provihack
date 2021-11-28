@@ -102,7 +102,7 @@ option {
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .mentor-card__areas-comunidades__areas, .mentor-card__areas-comunidades__comunidades {
@@ -160,7 +160,7 @@ option {
 .mentor-card__nota {
     text-align: center;
 
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .mentor-card__mostrar-perfil {
