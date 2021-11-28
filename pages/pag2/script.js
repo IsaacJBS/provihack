@@ -51,7 +51,6 @@ const criarCartaoRecomendacao = (recomendacao) => {
     containerRecomendacoes.appendChild(cartaoRecomendacao);
 
     const cartaoTitulo = document.createElement("h2");
-    cartaoTitulo.classList.add("pink-title");
     cartaoTitulo.innerText = recomendacao.titulo;
     cartaoRecomendacao.appendChild(cartaoTitulo);
 

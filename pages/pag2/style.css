@@ -7,7 +7,7 @@ body {
 }
 
 .blue-title {
-  color: #63b4ff;
+  color: #095AA5;
 }
 
 .mentor-card {
@@ -35,10 +35,12 @@ body {
 
   border-radius: 100px;
   background-color: #7a7a7a;
+
+  margin-bottom: 15px;
 }
 
 .mentor-card__nome-cargo {
-  margin-bottom: 18px;
+  margin-bottom: 25px;
 }
 
 .mentor-card__nome-cargo__nome {
@@ -154,13 +156,23 @@ body {
 .btn__agendamento {
   all: unset;
   cursor: pointer;
-  margin-top: 40px;
-  padding: 20px 0;
-  text-align: center;
-  color: #ffffff;
 
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  
   background-color: #ff72ad;
   border-radius: 5px;
+
+  margin-top: 40px;
+}
+
+.btn__agendamento a {
+  flex-grow: 1;
+
+  text-align: center;
+  color: #ffffff;
 }
 
 .container__section {
@@ -194,10 +206,19 @@ body {
   border-radius: 20px;
 }
 
-.right-section p {
+.right-section h2 {
+  font-weight: 600;
   font-size: 20px;
   line-height: 49px;
+}
+
+.right-section p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
   margin-bottom: 26px;
+
+  color: #666666;
 }
 
 .recomendacoes {
