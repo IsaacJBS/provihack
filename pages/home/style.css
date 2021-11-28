@@ -4,7 +4,7 @@ article {
   align-items: center;
 }
 .meet-us {
-  background: linear-gradient(360deg, #fea0c7 2.58%, #71bbff 89.43%);
+  background: linear-gradient(275.94deg, #fea0c7 3.92%, #71bbff 95.64%);
 }
 
 .container {
@@ -16,7 +16,7 @@ article {
   width: 60%;
   padding: 120px 0;
 
-  color: #ffffff;
+  color: #095aa5;
 }
 
 .left__section h4 {
@@ -47,7 +47,7 @@ article {
   all: unset;
   cursor: pointer;
 
-  background: #ffffff;
+  background: #ff72ad;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
 
@@ -55,15 +55,14 @@ article {
   font-size: 22px;
   line-height: 24px;
 
-  color: #ff72ad;
+  color: #ffffff;
 
   padding: 20px 50px;
   margin-top: 90px;
 }
 
 .section__btn:hover {
-  background: #ff72ad;
-  color: #ffffff;
+  background: #ff4693;
 }
 
 .right__section {
