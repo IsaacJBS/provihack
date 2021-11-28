@@ -1,0 +1,27 @@
+body {
+  background: #fbfbfb;
+}
+
+.container {
+  width: 100%;
+}
+.cadastro h1 {
+  color: #095aa5;
+  font-size: 30px;
+  line-height: 49px;
+  margin-bottom: 259px;
+}
+
+.cadastro {
+  margin-top: 76px;
+  margin-bottom: 200px;
+}
+
+.cadastro a {
+  color: #095aa5;
+  text-decoration: underline;
+}
+
+.cadastro a:hover {
+  color: #ff72ad;
+}
