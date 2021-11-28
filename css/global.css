@@ -3,7 +3,7 @@
   padding: 0;
 
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -26,6 +26,8 @@ a {
   justify-content: space-between;
   align-items: center;
 
+  color: #095AA5;
+
   max-width: 85%;
   padding: 30px 0;
 }
@@ -34,6 +36,12 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
 }
 
 .menu__navigation {
@@ -46,7 +54,11 @@ a {
 }
 
 .menu__navigation a {
-  color: #33323d;
+  color: #095AA5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
   padding: 9px 0;
   margin-left: 43px;
@@ -60,10 +72,24 @@ a.active {
 .entrar {
   all: unset;
   cursor: pointer;
-  padding: 13px 24px;
-  background-color: grey;
+
+  width: 95px;
+  height: 40px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  background-color: #FF72AD;
   border-radius: 15px;
   margin-left: 30px;
+}
+
+.btn--rosa:hover {
+  background: #FF4693;
 }
 
 .footer {
@@ -72,9 +98,13 @@ a.active {
   justify-content: center;
   text-align: center;
   height: 161px;
-  background-color: grey;
+  background-color: #63B4FF;
 
   padding: 13px 0;
+}
+
+.footer, .footer a {
+  color: #FFFFFF;
 }
 
 .social__footer {
