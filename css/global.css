@@ -54,11 +54,17 @@ a {
 
 .menu__navigation {
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.menu__navigation img {
+  margin-top: -7px;
 }
 
 .menu__navigation ul {
   display: flex;
+  padding: 5px;
 }
 
 .menu__navigation a {
@@ -66,10 +72,7 @@ a {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-
-  padding: 9px 0;
-  margin-left: 43px;
+  margin-left: 20px;
 }
 
 .menu__navigation a:hover,
