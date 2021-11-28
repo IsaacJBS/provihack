@@ -1,20 +1,21 @@
 body {
   background: #fbfbfb;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
   width: 100%;
 }
-.cadastro h1 {
-  color: #095aa5;
-  font-size: 30px;
-  line-height: 49px;
-  margin-bottom: 259px;
-}
 
 .cadastro {
   margin-top: 76px;
   margin-bottom: 200px;
+}
+.cadastro h1 {
+  color: #095aa5;
+  font-size: 30px;
+  line-height: 49px;
 }
 
 .cadastro a {
@@ -24,4 +25,10 @@ body {
 
 .cadastro a:hover {
   color: #ff72ad;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
