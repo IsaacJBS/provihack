@@ -1,0 +1,270 @@
+.menu {
+  margin-bottom: 100px;
+}
+
+.blue-title {
+  color: #095aa5;
+}
+
+.mentor-card {
+  width: 370px;
+  height: 590px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #ffffff;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding: 35px;
+  margin-bottom: 60px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mentor-card__img-perfil {
+  width: 124px;
+  height: 124px;
+
+  align-self: center;
+  bottom: 70px;
+
+  border-radius: 100px;
+  background-color: #7a7a7a;
+
+  margin-bottom: 15px;
+}
+
+.mentor-card__nome-cargo {
+  margin-bottom: 25px;
+}
+
+.mentor-card__nome-cargo__nome {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.mentor-card__nome-cargo__cargo {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+
+  color: #252525;
+}
+
+.mentor-card__areas-comunidades {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+}
+
+.mentor-card__areas-comunidades__areas {
+  text-align: start;
+}
+
+.mentor-card__areas-comunidades__comunidades {
+  margin-top: 27px;
+}
+
+.mentor-card__areas-comunidades__titulo {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #252525;
+
+  margin-bottom: 5px;
+}
+
+.mentor-card__areas-comunidades__lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mentor-card__areas-comunidades__lista__item {
+  max-height: 20px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: center;
+
+  color: #095aa5;
+
+  background: #d8e8f6;
+  border-radius: 10px;
+
+  padding: 2px 10px;
+  margin: 0 5px 5px 0;
+}
+
+.mentor-card__nota {
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+
+.mentor-card__mostrar-perfil {
+  all: unset;
+  cursor: pointer;
+
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+
+  background: #b3b3b3;
+  border-radius: 5px;
+}
+
+.mentor-card__mostrar-perfil__link {
+  flex-grow: 1;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.carreiras {
+  font-size: 14px;
+}
+
+.numeros {
+  color: #095aa5;
+  font-size: 16px;
+  font-weight: bold;
+}
+.carreiras__impactadas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__agendamento {
+  all: unset;
+  cursor: pointer;
+
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #ff72ad;
+  border-radius: 5px;
+
+  margin-top: 40px;
+}
+
+.btn__agendamento a {
+  flex-grow: 1;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.container__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-section::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.right-section::-webkit-scrollbar-track {
+  background: #c4c4c4; /* color of the tracking area */
+}
+
+.right-section::-webkit-scrollbar-thumb {
+  background-color: #929292; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid#929292; /* creates padding around scroll thumb */
+}
+
+.right-section {
+  overflow: auto;
+  overflow-inline: 1;
+
+  width: 60%;
+  height: 590px;
+  padding: 45px 40px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px 5px rgba(155, 155, 155, 0.25);
+  border-radius: 20px;
+}
+
+.right-section h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 49px;
+}
+
+.right-section p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 26px;
+
+  color: #666666;
+}
+
+.recomendacoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+  margin-bottom: 150px;
+}
+
+.card__recomendacoes {
+  width: 360px;
+  height: 426px;
+
+  text-align: center;
+
+  padding: 30px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 10px 5px rgba(155, 155, 155, 0.25);
+  border-radius: 20px;
+}
+
+.card__recomendacoes h2 {
+  height: 70px;
+  margin-bottom: 14px;
+}
+
+.comentario {
+  height: 160px;
+}
+
+.card__recomendacoes p {
+  margin-bottom: 12px;
+}
+
+.card__perfil {
+  margin-top: 23px;
+
+  display: flex;
+}
+
+.img-card__perfil {
+  margin-right: 20px;
+  width: 40px;
+}
+
+.info-card__perfil {
+  text-align: start;
+}
+
+.info-card__perfil p {
+  color: #666666;
+}
