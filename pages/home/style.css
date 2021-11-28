@@ -179,13 +179,14 @@ article {
   color: #ffffff;
 
   margin-top: 70px;
+  margin-bottom: 100px;
   padding: 18px 56px;
   display: flex;
   justify-content: center;
 }
 
 .manifesto {
-  padding-top: 100px;
+  padding-top: 50px;
   margin-bottom: 70px;
 }
 

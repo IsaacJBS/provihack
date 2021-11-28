@@ -1,0 +1,23 @@
+body {
+  background: #fbfbfb;
+}
+
+.cadastro {
+  margin-top: 76px;
+  margin-bottom: 200px;
+}
+
+.cadastro h1 {
+  color: #095aa5;
+  font-size: 30px;
+  line-height: 49px;
+  margin-bottom: 60px;
+}
+
+.cadastro p {
+  margin-bottom: 20px;
+}
+
+.cadastro p a {
+  text-decoration: underline;
+}
