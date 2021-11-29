@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: #fbfbfb;
+}
+
 ul {
   list-style: none;
 }
@@ -25,10 +29,15 @@ a {
 }
 
 .menu__nav {
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
   background: #ffffff;
 }
 
 .menu {
+  position: sticky;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
